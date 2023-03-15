@@ -78,7 +78,7 @@ footer p{
 
 }
 /* responsive code */
-@media screen and (min-width:600px){
+@media screen and (max-width:600px){
     .content{
         /* background: #111; */
         flex-direction: column;
