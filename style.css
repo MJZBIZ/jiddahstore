@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background-color: turquoise;
+}
+header nav{
+    text-align: center;
+}
+header nav ul li{
+    list-style: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid;
+
+}
+header nav ul li:hover{
+    background-color: #ccc;
+    color: #111;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    display: flex;
+}
+.content .left{
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #ccc;
+    padding: 0px 50px;
+}
+.content .left h2{
+    margin-bottom: 15px;
+}
+.content .left p{
+    padding: 0px 5px;
+}
+.content .right{
+    width: 100%;
+    height: 500px;
+    background: url(./img/afif-ramdhasuma-zli4eDX3IPQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* section styling */
+.section{
+    padding: 50px;
+}
+.section h2{
+    margin-bottom: 13px;
+}
+section p{
+
+}
+footer{
+    height: 30px;
+    background: #555;
+}
+footer p{
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: 200px;
+    font-size: 30px;
+
+}
+/* responsive code */
+@media screen and (min-width:600px){
+    .content{
+        /* background: #111; */
+        flex-direction: column;
+    }
+    .content .left{
+        width: 100px;
+        padding: 0px;
+    }
+    .content .left p{
+        width: 50px;
+    }
+    .content .right{
+        
+    }
+}
